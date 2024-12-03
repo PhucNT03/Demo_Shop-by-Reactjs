@@ -1,0 +1,89 @@
+
+.detail-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e4e0e0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(82, 80, 80, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.detail-title {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+
+.detail-carousel {
+    flex: 1 1 60%;
+    max-width: 60%;
+}
+
+.detail-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.detail-info {
+    flex: 1 1 35%;
+    max-width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.detail-status {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+
+.detail-status .instock {
+    color: green;
+}
+
+.detail-status .outstock {
+    color: red;
+}
+
+.detail-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0557ae; 
+    margin-bottom: 20px;
+}
+
+.detail-specifications {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.detail-specifications p {
+    margin: 5px 0;
+}
+
+
+@media (max-width: 768px) {
+    .detail-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .detail-carousel,
+    .detail-info {
+        max-width: 100%;
+    }
+}

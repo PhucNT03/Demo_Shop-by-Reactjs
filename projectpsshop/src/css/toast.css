@@ -1,0 +1,44 @@
+/* custom.css */
+.toast-right {
+    position: fixed;
+    top: 150px;
+    right: 20px;
+    z-index: 1050;
+    animation: slideInRight 0.5s ease-in-out, fadeIn 0.5s ease-in-out;
+    background-color: #343a40; /* Dark background color */
+    color: white; /* Text color */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Custom styles for Toast Header */
+.toast-right .toast-header {
+    background-color: #007bff; /* Primary background color */
+    color: white; /* Text color */
+    border-bottom: 1px solid #007bff;
+}
+
+/* Custom styles for Toast Body */
+.toast-right .toast-body {
+    background-color: #343a40; /* Dark background color */
+    color: white; /* Text color */
+}
+
+/* Keyframes for slide-in effect */
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+/* Keyframes for fade-in effect */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

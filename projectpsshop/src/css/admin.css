@@ -1,0 +1,84 @@
+/* admin.css */
+
+.admin-navbar {
+  position: fixed;
+  top: 0;
+  width: calc(100% - 250px); /* Chiều rộng của navbar khi sidebar mở */
+  left: 250px; /* Dịch chuyển navbar sang phải khi sidebar mở */
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Thêm bóng để phân biệt rõ hơn */
+}
+.dashboard-content {
+  margin-top: 70px;
+}
+
+.admin-navbar.collapsed {
+  width: 100%; /* Khi sidebar đóng, chiều rộng của navbar là 100% */
+  left: 0; /* Khi sidebar đóng, dịch chuyển navbar về bên trái */
+}
+.navbar-nav .nav-item + .nav-item {
+  margin-left: 10px; /* Điều chỉnh khoảng cách giữa các mục */
+}
+
+.content {
+  padding-top: 15px; /* Điều chỉnh theo chiều cao của navbar */
+}
+
+.sidebar {
+  padding: 15px;
+  background-color: #343a40; /* Màu nền của sidebar */
+  width: 250px; /* Đặt chiều rộng cố định cho sidebar */
+  overflow-y: auto; /* Thêm cuộn dọc nếu nội dung quá dài */
+}
+
+.sidebar a {
+  color: white; /* Đảm bảo màu chữ là màu trắng */
+  text-decoration: none; /* Loại bỏ gạch chân */
+  transition: color 0.2s, background-color 0.2s; /* Thêm hiệu ứng chuyển đổi */
+  font-size: 12px; /* Giảm kích thước chữ */
+}
+
+.sidebar ul li {
+  margin-bottom: 10px; /* Tăng khoảng cách giữa các mục */
+}
+
+.sidebar ul li:hover {
+  background-color: rgb(121, 117, 117);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sidebar ul li:hover a {
+  color: white;
+}
+
+.sidebar .active {
+  background-color: rgb(121, 117, 117);
+  border-radius: 5px;
+  color: white;
+}
+
+.table td,
+.table th {
+  padding: 0.3rem;
+}
+
+.table img {
+  max-width: 80px;
+}
+
+.table button {
+  padding: 0.2rem 0.4rem;
+  font-size: 0.9rem;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .sidebar {
+    display: none; /* Ẩn sidebar trên màn hình nhỏ */
+  }
+
+  .navbar-toggler {
+    display: block; /* Hiển thị nút toggle trên màn hình nhỏ */
+  }
+}

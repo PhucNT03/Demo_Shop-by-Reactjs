@@ -1,0 +1,111 @@
+.logo-home {
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+}
+
+.header {
+    background-color: rgb(100, 150, 243);
+    padding: 10px 20px;
+}
+
+.Nav-link {
+    color: rgb(255, 255, 255) !important;
+    transition: color 0.3s ease;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 1rem;
+    
+    margin: 0 15px;
+}
+
+.Nav-link:hover {
+    color: #dddddd;
+    font-weight: bold;
+}
+
+.flex-item {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.hover-item {
+    color: rgb(255, 255, 255);
+    transition: color 0.3s ease;
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+
+.hover-item:hover {
+    color: #dddddd;
+}
+
+.dropDownProfile {
+    position: absolute;
+    top: 6.5rem;
+    right: 6rem;
+    width: 120px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: white;
+    border: 1px solid gray;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 1000;
+}
+
+.dropDownProfile::before {
+    content: "";
+    position: absolute;
+    top: -0.7rem;
+    right: 1.5rem;
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+    border-left: 1px solid grey;
+    background-color: white;
+    border-top: 1px solid gray;
+}
+
+.dropDownProfile ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropDownProfile ul li .nav-link:hover {
+    background-color: rgb(100, 150, 243);
+    color: white;
+    transition: 0.3s ease;
+}
+
+.dropDownProfile ul .nav-log:hover {
+    background-color: rgb(100, 150, 243);
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.badge {
+    padding-left: 9px;
+    padding-right: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    border: #ff0000 solid 2px;
+}
+
+.label-warning[href],
+.badge-warning[href] {
+    background-color: #c67605;
+}
+
+#lblCartCount {
+    font-size: 10px;
+    background: #ff0000;
+    color: #fff;
+    padding: 2px 5px;
+    vertical-align: top;
+    margin-left: -10px;
+    margin-bottom: 20px;
+}

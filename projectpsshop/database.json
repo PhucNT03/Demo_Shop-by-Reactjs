@@ -1,0 +1,478 @@
+{
+  "category": [
+    {
+      "id": "1",
+      "name": "Console"
+    },
+    {
+      "id": "2",
+      "name": "Game"
+    },
+    {
+      "id": "3",
+      "name": "Accessory"
+    }
+  ],
+  "products": [
+    {
+      "name": "Playstation 5",
+      "price": 11000000,
+      "images": [
+        {
+          "id": 1,
+          "name": "ps5_1.jpg"
+        },
+        {
+          "id": 2,
+          "name": "ps5pr_1.png"
+        }
+      ],
+      "quantity": 10,
+      "catId": 1,
+      "status": true,
+      "id": "1",
+      "description": "CPU: 8x Zen 2 Cores at 3.5GHz - GPU: 10.28 TFLOPs, 36 CUs at 2.23GHz - RAM: 16GB GDDR6 - Storage: 825GB SSD"
+    },
+    {
+      "id": "2",
+      "name": "Playstation 5 pro",
+      "price": 18590000,
+      "images": [
+        {
+          "id": 1,
+          "name": "ps5pr_1.jpg"
+        },
+        {
+          "id": 2,
+          "name": "ps5p_1.png"
+        }
+      ],
+      "status": false,
+      "quantity": 0,
+      "catId": 1,
+      "description": "CPU: 8x Zen 2 Cores at 3.5GHz - GPU: 10.28 TFLOPs, 36 CUs at 2.23GHz - RAM: 16GB GDDR6 - Storage: 825GB SSD"
+    },
+    {
+      "id": "3",
+      "name": "Playstation 5 slim + free game",
+      "price": 6990000,
+      "images": [
+        {
+          "id": 1,
+          "name": "ps5sl_1.jpg"
+        },
+        {
+          "id": 2,
+          "name": "ps5s_2.png"
+        }
+      ],
+      "status": true,
+      "quantity": 6,
+      "catId": 1,
+      "description": "CPU: 8x Zen 2 Cores at 3.5GHz - GPU: 10.28 TFLOPs, 36 CUs at 2.23GHz - RAM: 16GB GDDR6 - Storage: 825GB SSD"
+    },
+    {
+      "id": "4",
+      "name": "Playstation 4",
+      "price": 57990000,
+      "images": [
+        {
+          "id": 1,
+          "name": "ps4c_1.jpg"
+        },
+        {
+          "id": 2,
+          "name": "ps4_2.png"
+        },
+        {
+          "id": 2,
+          "name": "ps4_3.png"
+        }
+      ],
+      "status": true,
+      "quantity": 8,
+      "catId": 1,
+      "description": "CPU: 8x Zen 2 Cores at 3.5GHz - GPU: 10.28 TFLOPs, 36 CUs at 2.23GHz - RAM: 16GB GDDR6 - Storage: 825GB SSD"
+    },
+    {
+      "id": "5",
+      "name": "God of war",
+      "price": 13290000,
+      "images": [
+        {
+          "id": 1,
+          "name": "god_1.jpg"
+        },
+        {
+          "id": 2,
+          "name": "god_2.png"
+        },
+        {
+          "id": 3,
+          "name": "god_3.png"
+        }
+      ],
+      "status": true,
+      "quantity": 9,
+      "catId": 2,
+      "description": "CPU: 8x Zen 2 Cores at 3.5GHz - GPU: 10.28 TFLOPs, 36 CUs at 2.23GHz - RAM: 16GB GDDR6 - Storage: 825GB SSD"
+    },
+    {
+      "id": "6",
+      "name": "FC24",
+      "price": 13290000,
+      "images": [
+        {
+          "id": 1,
+          "name": "fc24_1.jpg"
+        },
+        {
+          "id": 2,
+          "name": "fc_2.png"
+        },
+        {
+          "id": 3,
+          "name": "fc_3.png"
+        }
+      ],
+      "status": true,
+      "quantity": 9,
+      "catId": 2,
+      "description": "CPU: 8x Zen 2 Cores at 3.5GHz - GPU: 10.28 TFLOPs, 36 CUs at 2.23GHz - RAM: 16GB GDDR6 - Storage: 825GB SSD"
+    },
+    {
+      "id": "7",
+      "name": "Sony Headsets for console",
+      "price": 13290000,
+      "images": [
+        {
+          "id": 1,
+          "name": "hs_1.jpg"
+        },
+        {
+          "id": 2,
+          "name": "hs_2.png"
+        },
+        {
+          "id": 3,
+          "name": "hs_3.png"
+        }
+      ],
+      "status": true,
+      "quantity": 5,
+      "catId": 3,
+      "description": "CPU: 8x Zen 2 Cores at 3.5GHz - GPU: 10.28 TFLOPs, 36 CUs at 2.23GHz - RAM: 16GB GDDR6 - Storage: 825GB SSD"
+    },
+    {
+      "id": "8",
+      "name": "Controller for ps5",
+      "price": 13290000,
+      "images": [
+        {
+          "id": 1,
+          "name": "ctr_1.jpg"
+        },
+        {
+          "id": 2,
+          "name": "ctr_2.png"
+        },
+        {
+          "id": 3,
+          "name": "ctr_3.png"
+        }
+      ],
+      "status": true,
+      "quantity": 5,
+      "catId": 3,
+      "description": "CPU: 8x Zen 2 Cores at 3.5GHz - GPU: 10.28 TFLOPs, 36 CUs at 2.23GHz - RAM: 16GB GDDR6 - Storage: 825GB SSD - High speed of fan"
+    }
+  ],
+  "user": [
+    {
+      "id": "1",
+      "username": "custom1",
+      "email": "custom1@gmail.com",
+      "password": "123456",
+      "fullname": "Do Minh Tu",
+      "gender": true,
+      "status": true,
+      "dob": "2024-07-19",
+      "role": 0
+    },
+    {
+      "id": "2",
+      "username": "student",
+      "email": "student@example.com",
+      "password": "123456",
+      "fullname": "Hieu",
+      "gender": "male",
+      "dob": "2024-07-25",
+      "status": true,
+      "role": 1
+    },
+    {
+      "id": "3",
+      "username": "custom2@gmail.com",
+      "email": "1212@gmail.com",
+      "password": "123456",
+      "fullname": "sadsadad",
+      "gender": false,
+      "dob": "2003-04-30",
+      "status": true,
+      "role": 1
+    },
+    {
+      "id": "4",
+      "username": "dsdasdasdas",
+      "email": "2wqe@gmail.com",
+      "password": "123456",
+      "fullname": "saddadadsadadadad",
+      "gender": true,
+      "dob": "2111-03-23",
+      "status": true,
+      "role": 1
+    },
+    {
+      "id": "5",
+      "username": "custom2@gmail.com",
+      "email": "dsadad1@gmail.com",
+      "password": "123456",
+      "fullname": "Hieeus ngu",
+      "gender": false,
+      "dob": "1222-02-23",
+      "status": true,
+      "role": 1,
+      "location": "asa",
+      "phone": "âs",
+      "address": "âsasa"
+    },
+    {
+      "id": "6",
+      "username": "hieu",
+      "email": "user@gmail.com",
+      "password": "123456",
+      "fullname": "Le Hieu",
+      "gender": true,
+      "dob": "2007-02-17",
+      "status": true,
+      "role": 0
+    },
+    {
+      "id": "7",
+      "username": "Van A",
+      "email": "t1@example.com",
+      "password": "123456",
+      "fullname": "hoang",
+      "gender": true,
+      "dob": "2004-03-18",
+      "status": true,
+      "role": 1
+    },
+    {
+      "id": "8",
+      "username": "Hieu3z03",
+      "email": "stu@example.com",
+      "password": "123456",
+      "fullname": "Le Hieu",
+      "gender": true,
+      "dob": "2024-07-12",
+      "status": true,
+      "role": 1
+    },
+    {
+      "id": "81",
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "password": "123456",
+      "fullname": "phucnguyenthanh",
+      "gender": true,
+      "dob": "2024-11-01",
+      "status": true,
+      "role": 1,
+      "phone": "0977350146",
+      "address": "hoa lac, thach that, ha noi"
+    }
+  ],
+  "order": [
+    {
+      "id": "a39a",
+      "oDate": "2024-07-15",
+      "rDate": "2024-07-19",
+      "status": "processing",
+      "user": {
+        "uid": 1,
+        "fname": "Do ",
+        "lname": "minh tu",
+        "address": "Hanoi",
+        "mobile": "0838188331",
+        "uemail": "custom1@gmail.com"
+      },
+      "product": [
+        {
+          "pid": "1",
+          "pname": "Playstation 5",
+          "price": 11000000,
+          "quantity": 1
+        }
+      ],
+      "total": 11000000
+    },
+    {
+      "id": "f22e",
+      "oDate": "2024-07-19",
+      "rDate": "2024-07-21",
+      "status": "processing",
+      "user": {
+        "fname": "Le",
+        "lname": "Hieu",
+        "address": "Viet Tri",
+        "mobile": "0984214063"
+      },
+      "product": [
+        {
+          "pid": "1",
+          "pname": "Playstation 5",
+          "price": 11000000,
+          "quantity": 1
+        }
+      ],
+      "total": 11000000
+    },
+    {
+      "id": "d446",
+      "oDate": "2024-07-21",
+      "rDate": "2004-05-30",
+      "status": "processing",
+      "user": {
+        "uid": "1",
+        "fname": "ádsad",
+        "lname": "adadad",
+        "address": "13awa@gmail.com",
+        "mobile": "2131232222",
+        "uemail": "custom1@gmail.com"
+      },
+      "product": [
+        {
+          "pid": "3",
+          "pname": "Playstation 5 slim + free game",
+          "price": 6990000,
+          "quantity": 1
+        },
+        {
+          "pid": "4",
+          "pname": "Playstation 4",
+          "price": 57990000,
+          "quantity": 1
+        }
+      ],
+      "total": 64980000
+    },
+    {
+      "id": "998c",
+      "oDate": "2024-07-21",
+      "rDate": "2004-04-30",
+      "status": "processing",
+      "user": {
+        "uid": "1",
+        "fname": "ádsadada",
+        "lname": "adadsadad",
+        "address": "dsadsada",
+        "mobile": "1234567890",
+        "uemail": "custom1@gmail.com"
+      },
+      "product": [
+        {
+          "pid": "5",
+          "pname": "God of war",
+          "price": 13290000,
+          "quantity": 1
+        },
+        {
+          "pid": "6",
+          "pname": "FC24",
+          "price": 13290000,
+          "quantity": 1
+        }
+      ],
+      "total": 26580000
+    },
+    {
+      "oDate": "2024-11-05",
+      "rDate": "2003-03-26",
+      "status": "processing",
+      "user": {
+        "uid": "5",
+        "fname": "Nguyen",
+        "lname": "Phuc",
+        "address": "Hanoi",
+        "mobile": "0123654788",
+        "uemail": "dsadad1@gmail.com"
+      },
+      "product": [
+        {
+          "pid": "3",
+          "pname": "Playstation 5 slim + free game",
+          "price": 6990000,
+          "quantity": 1
+        }
+      ],
+      "total": 6990000,
+      "id": "_a5qLm4"
+    },
+    {
+      "oDate": "2024-11-05",
+      "rDate": "2024-11-03",
+      "status": "processing",
+      "user": {
+        "uid": "5",
+        "fname": "Nguyen",
+        "lname": "Phuc",
+        "address": "Hanoi",
+        "mobile": "0123654788",
+        "uemail": "dsadad1@gmail.com"
+      },
+      "product": [
+        {
+          "pid": "3",
+          "pname": "Playstation 5 slim + free game",
+          "price": 6990000,
+          "quantity": 1
+        }
+      ],
+      "total": 6990000,
+      "id": "NkbsbTP"
+    },
+    {
+      "oDate": "2024-11-05",
+      "rDate": "2024-11-02",
+      "status": "processing",
+      "user": {
+        "uid": "5",
+        "fname": "Nguyen",
+        "lname": "Phuc",
+        "address": "Hanoi",
+        "mobile": "0123654788",
+        "uemail": "dsadad1@gmail.com"
+      },
+      "product": [
+        {
+          "pid": "1",
+          "pname": "Playstation 5",
+          "price": 11000000,
+          "quantity": 1
+        }
+      ],
+      "total": 11000000,
+      "id": "E-zxxiX"
+    }
+  ],
+  "problems": [
+    {
+      "id": "1b84",
+      "email": "student@example.com",
+      "username": "student",
+      "problem": "áddasd",
+      "status": false
+    }
+  ]
+}

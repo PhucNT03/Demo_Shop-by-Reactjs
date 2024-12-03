@@ -1,0 +1,215 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Apply the font to the body and specific elements */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f7ff;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-body {
+    background: #f7f7ff;
+    margin-top: 150px;
+    padding-bottom: 100px; /* To ensure the footer does not overlap content */
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid transparent;
+    border-radius: .25rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 6px rgba(218, 218, 253, 0.65), 0 2px 6px rgba(206, 206, 238, 0.54);
+}
+
+.container.bootstrap.snippet {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.img-thumbnail {
+    padding: 4px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: all .2s ease-in-out;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    object-fit: cover; /* Ensure the image maintains its aspect ratio */
+}
+
+.toast-right {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1050;
+}
+
+.form-labels {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.form-controls {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+.form-controls:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 5px rgba(81, 167, 232, 0.5);
+}
+
+.button-save {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.button-save:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.nav-tabs {
+    margin-bottom: 20px;
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: #fff;
+    border-color: #dee2e6;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1, h4 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.text-muted {
+    font-size: 1.2rem;
+    color: #6c757d;
+}
+
+.btn-success {
+    margin-right: 10px;
+}
+
+.pull-left {
+    float: left !important;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.file-upload {
+    margin-top: 10px;
+}
+
+.file-upload input[type="file"] {
+    display: none;
+}
+
+.file-upload label {
+    display: block;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.file-upload label:hover {
+    background-color: #0056b3;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.pagination button.active {
+    background-color: #0056b3;
+}
+
+.pagination button:hover {
+    background-color: #0056b3;
+}
+
+.order-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.order-item {
+    flex: 1 1 calc(33.333% - 15px);
+    box-sizing: border-box;
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.order-item p {
+    margin: 0;
+    font-size: 0.9rem;
+}
